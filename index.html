@@ -21,9 +21,22 @@
 
   <script type="text/babel">
     const Banner = () => {
+        const title = "Welcome to my website"
+        const subtitle ="this is a website for learning react"
+
+        const handleClick = (e) => {
+          alert ("Hello, world!")
+          console.log (title)
+          console.log (e)
+        }
+
         return ( 
-            <div>
-                <p> banner </p>
+            <div className="">
+                <h2> {title.toUpperCase()} </h2>
+                <p> {subtitle} </p>
+
+                <button onClick={handleClick}> Click me </button>
+
             </div>
         )
     }
