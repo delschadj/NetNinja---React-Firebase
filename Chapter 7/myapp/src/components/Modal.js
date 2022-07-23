@@ -13,7 +13,6 @@ export default function ({children, isSalesModal, setShowModal }) {
         {
             <div>
                 {children}
-
                 <button onClick={() => setShowModal(false)}> close </button>
             </div>
         }

@@ -54,7 +54,7 @@ function App() {
       </div>
 
       {showModal && (
-        <Modal isSalesModal={isSalesModal} setShowModal={setShowModal}>
+        <Modal isSalesModal={isSalesModal}  setShowModal={setShowModal}>
           <NewEventForm addEvent={addEvent} />
         </Modal>
       )}
