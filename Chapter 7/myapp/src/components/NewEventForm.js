@@ -5,7 +5,7 @@ export default function NewEventForm({addEvent}) {
   const [title, setTitle] = useState ("")
   const [date, setDate] = useState ("")
   const [location, setLocation] = useState ("manchester")
-
+  
   const resetForm = () => {
     setTitle ("")
     setDate ("")
